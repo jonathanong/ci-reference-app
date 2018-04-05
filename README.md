@@ -1,6 +1,8 @@
 
 # CI Reference App
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jonathanong/ci-reference-app.svg)](https://greenkeeper.io/)
+
 [![CircleCI](https://circleci.com/gh/jonathanong/ci-reference-app/tree/master.svg?style=svg)](https://circleci.com/gh/jonathanong/ci-reference-app/tree/master)
 [![codecov](https://codecov.io/gh/jonathanong/ci-reference-app/branch/master/graph/badge.svg)](https://codecov.io/gh/jonathanong/ci-reference-app)
 
