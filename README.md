@@ -11,3 +11,5 @@ This is a simplified version of my personal reference app: [IMS](https://github.
 ## Commands
 
 See commands here: [IMS#Commands](https://github.com/jonathanong/ims#commands)
+
+TEST
