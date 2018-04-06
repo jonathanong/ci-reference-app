@@ -4,6 +4,16 @@ const render = require('./render')
 const app = require('./app')
 
 app.use(async (ctx, next) => {
+  try {
+    await next()
+  } catch (err) {
+    err.status = err.status || err.statusCode || 500
+    ctx.body = err.stack
+    ctx.app.emit('error', err, ctx)
+  }
+})
+
+app.use(async (ctx, next) => {
   if (ctx.path === '/ping') {
     ctx.body = 'pong'
     return
