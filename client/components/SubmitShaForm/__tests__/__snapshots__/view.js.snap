@@ -2,6 +2,7 @@
 
 exports[`renders correctly 1`] = `
 <form
+  className=""
   onSubmit={[Function]}
 >
   <input

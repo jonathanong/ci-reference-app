@@ -2,6 +2,7 @@
 
 exports[`Storyshots SubmitShaForm 0 shas 1`] = `
 <form
+  className=""
   onSubmit={[Function]}
 >
   <input
@@ -30,6 +31,7 @@ exports[`Storyshots SubmitShaForm 0 shas 1`] = `
 
 exports[`Storyshots SubmitShaForm 1 shas 1`] = `
 <form
+  className=""
   onSubmit={[Function]}
 >
   <input
@@ -64,6 +66,7 @@ exports[`Storyshots SubmitShaForm 1 shas 1`] = `
 
 exports[`Storyshots SubmitShaForm 2 shas 1`] = `
 <form
+  className=""
   onSubmit={[Function]}
 >
   <input
