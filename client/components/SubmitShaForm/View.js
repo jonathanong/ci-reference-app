@@ -1,6 +1,10 @@
 
 import React, { PureComponent } from 'react'
+import classNames from 'classnames'
 import PropTypes from 'prop-types'
+
+import { featureFlags } from '../../feature-flags'
+import './index.css'
 
 export default class SubmitShaForm extends PureComponent {
   static propTypes = {
@@ -29,7 +33,7 @@ export default class SubmitShaForm extends PureComponent {
 
   render () {
     return (
-      <form onSubmit={this.onSubmit}>
+      <form className={classNames(featureFlags.redTable && 'red-table')} onSubmit={this.onSubmit}>
         <input type='text' value={this.state.text} onChange={this.onTextChange} required />
         <button type='submit'>Submit</button>
 
